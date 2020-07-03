@@ -12,6 +12,10 @@ const server = http.createServer((req, res) => {
 
    // Send the response body "Hello World"
    res.end('Hello World\n');
+
+     console.log('test');
+  const aa =                 [1,2,3];
+
 });
 
 // Prints a log once the server starts listening
